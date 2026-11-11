@@ -19,5 +19,15 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/microdrama/nac-jewellers",
+      "destination": "/nac-jewellers/"
+    },
+    {
+      "source": "/microdrama/nac-jewellers/:path*",
+      "destination": "/nac-jewellers/:path*"
+    }
   ]
 }
